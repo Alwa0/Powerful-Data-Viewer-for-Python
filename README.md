@@ -20,6 +20,8 @@ Python interpreter: [install](https://www.python.org/downloads/)
 
 ### Installation
 
+JavaFX: [install](https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm)
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pandas.
 
 ```bash
