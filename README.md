@@ -2,7 +2,7 @@
 
 ## Description
 
-The application throw GUI takes the path to a csv file and python interpreter(optional).
+Using GUI the program takes the path to a csv file and python interpreter(optional).
 
 Using python pandas library the app returns the interactive table based on the content of the csv file
 
