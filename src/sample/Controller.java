@@ -2,6 +2,7 @@ package sample ;
 import javafx.fxml.FXML;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -35,7 +36,10 @@ public class Controller {
             line = in.readLine();
             v = v + 25;
         }
-        Scene scene = new Scene(rootGroup, 1500, 1500);
+
+        ScrollPane sp = new ScrollPane();
+        sp.setContent(rootGroup);
+        Scene scene = new Scene(sp, 1500, 1500);
         stage1.setScene(scene);
 
 
